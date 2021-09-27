@@ -1,8 +1,9 @@
 # FSP1
-Paper 1 from the farming systems project
+This repository contains the Sequence QC and analysis pipeline for [INSERT TITLE] [INSERT DOI AFTER PUBLISHED]. 
 
-All files necessary to replicate the analysis are in the analysis folder, including an R markdown that creates all the figures for the paper.
+Sequence data is stored on NCBI under SRA [insert SRA ID].
 
-The original sequences can be found in ... []
+Sequence quality control pipline is in the QC folder.
 
-Sequence QC and annotation scripts are in ... []
+Annotated 16S and ITS community datasets are in the Analysis folder and are stored as phyloseq objects in .RDS files (GADbac2020.rds and GADfun2020.rds). 
+The analysis pipeline, which also produces all figures for the analysis is in the Analysis folder, file named Analysis.R
